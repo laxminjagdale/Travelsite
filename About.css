@@ -1,0 +1,61 @@
+/* src/components/AboutPage.css */
+.about {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+   
+  }
+  
+  .about-intro, .about-mission, .why-choose-us, .about-team {
+    margin-top: 90px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  .about-intro h1, .about-mission h2, .why-choose-us h2, .about-team h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .about-intro p, .about-mission p, .about-team p {
+    font-size: 1.1rem;
+    color: #666;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .about-mission {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .mission-content {
+    max-width: 500px;
+  }
+  
+  .mission-image {
+    width: 400px;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .why-choose-us {
+    padding: 20px;
+  }
+  
+  .features {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .feature-card {
+    width: 250px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9
+  }  
+
+  
